@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  background-color: #02010A;
+  color: #fff;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  padding: .9em;
+  width: 100%;
+  background-color: #02010A;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 1.3em;
+  margin-right: 2em;
+  margin-left: 1em;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+  position: relative;
+  height: 100vh;
+  padding: 10em;
+}
+
+.img::before {
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: -1em;
+  line-height: .1em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+section {
+  text-align: center;
+}
+
+.bg {
+  background-color: #04052E;
+  color: #FFF;
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links a {
+  font-size: 2em;
+  margin: 0 .8em;
+  color: #fff;
+}
+
+footer {
+  background-color: #02010A;
+  color: #FFF;
+  padding: 1em;
+}
+
+.project {
+  width: 100%;
+}
+
+.project-tile {
+  max-width: 200px;
+}
